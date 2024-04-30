@@ -35,7 +35,7 @@ def main():
     else :
         hascrcard = 1
     activemember = st.radio("Active member",["Yes","No"])
-    if activemember = "No":
+    if activemember == "No":
         activemember = 0
     else :
         activemember = 1
