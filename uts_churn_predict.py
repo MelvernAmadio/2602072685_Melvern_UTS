@@ -31,14 +31,14 @@ def main():
     numofproducts = st.number_input("total products", 0,1000)
     hascrcard = st.radio("Have CR Crad",["Yes","No"])
     if hascrcard == "No":
-        hascrcard = 0
+        hascrcard = 0
     else :
-        hascrcard = 1
+        hascrcard = 1
     activemember = st.radio("Active member",["Yes","No"])
-    if activemember == "No":
-        activemember = 0
+    if activemember = "No":
+        activemember = 0
     else :
-        activemember = 1
+        activemember = 1
     
     estimatedsalary = st.number_input("estimated salary", 0,1000000000)
 
