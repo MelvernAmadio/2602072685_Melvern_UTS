@@ -30,7 +30,7 @@ def main():
     balance = st.number_input("total Balance", 0,1000000000)
     numofproducts = st.number_input("total products", 0,1000)
     hascrcard = st.radio("Have CR Crad",["Yes","No"])
-    activemember = st.radio("Have CR Crad",["Yes","No"])
+    activemember = st.radio("Active member",["Yes","No"])
     estimatedsalary = st.number_input("estimated salary", 0,1000000000)
 
     data = {'Credit Score' :float(credit_score), 'Geography': geography , 'Gender': gender, 'Age': int(age),
