@@ -23,7 +23,7 @@ def main():
 
 
     credit_score = st.number_input("total Credit score", 0,1000000000)
-    geography = st.radio("choose subscription type", ["Germany","Spain","France"])
+    geography = st.radio("choose country", ["Germany","Spain","France"])
     gender = st.radio("gender", ["Male","Female"])
     age = st.number_input("age", 0, 100)
     tenure = st.number_input("the period of time tenure (in years)", 0,100)
