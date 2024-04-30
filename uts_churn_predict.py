@@ -62,6 +62,10 @@ def main():
         features=df
         result = make_prediction(features)
         st.success(f'The prediction is: {result}')
+        if result == 0 :
+            result = "Not Churn"
+        else :
+            result = "Churn"
 
 def make_prediction(features):
     input_array = np.array(features).reshape(1, -1)
